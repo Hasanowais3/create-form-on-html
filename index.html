@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php" method="post">
+        <fieldset>
+            <legend>Personel Details</legend>
+    <p>
+        First Name:
+        <input type="text" name="firstname" size="15" maxlength="30">
+    <br/>
+    <br/>
+        Last Name:
+        <input type="text" name="lastname" size="15" maxlength="30">
+    </p>
+    <p>
+        Gender:
+        <input id="male" type="radio" name="gender" value="m" />
+        <label for="male">Male</label>
+
+        <label><input type="radio" name="gender" value="m" />Female</label>       
+    </p>
+    <p>
+        Date of Birth:
+        <input type="date" name="Dob">
+    </p>
+    <p>
+        please enter your email address:
+        <br/>
+</p>
+<p>
+    <input type="email" name="email">
+</p>
+<p>
+    please enter your website:
+    <br/>
+    <input type="url" name="profile">
+</p>
+    <p>
+        Nationality:
+        <select name="countries" multiple>
+            <option pakistan>Pakistan</option>
+            <option usa>Usa</option>
+            <option canada>Canada</option>
+            <option china>China</option>
+            <option england>England</option>
+        </select>
+    </p>
+</fieldset>
+    <p>
+        Passsword:
+        <input type="password" name="password" size="15" maxlength="30">
+     <br/>
+     <br/>
+        Re-enter Password:
+        <input type="password" name="re-enterpassword" size="15" maxlength="30">
+        <br/>
+        <br/>
+        </p>
+        <p>
+            Interests:
+            <input type="checkbox" name="interests" value="men"/>Men's Clothing
+            <input type="checkbox" name="interests" value="women"/>Women's Clothing
+            <input type="checkbox" name="interests" value="accessories"/>Accessories
+            <input type="checkbox" name="interests" value="men"/>Electronics
+        </p>
+        <p>
+     Comments:
+        </p>
+     <textarea name="comments" cols="30" rows="15"></textarea>
+    </p>
+    <p>
+        Upload Profile Picture:
+    </p>
+    <p>
+        <input type="file" name="dp"/>
+        <br/>
+        <br/>
+        <input type="Submit" value="Upload">
+        <input type="submit">
+    </p>
+</form>
+</body>
+</html>
